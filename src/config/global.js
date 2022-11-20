@@ -205,22 +205,22 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Base form</em> / Forma base:',
+      termino: '<em>Base form</em> / Forma base',
       significado:
         'forma más básica de un verbo, sin ningún tipo de terminación específica.',
     },
     {
-      termino: '<em>Past simple</em> / Pasado simple:',
+      termino: '<em>Past simple</em> / Pasado simple',
       significado:
         'tiempo verbal que hace referencia a acciones que se llevaron a cabo en un momento o tiempo previo al ahora.',
     },
     {
-      termino: '<em>Past continuous</em> / Pasado continuo:',
+      termino: '<em>Past continuous</em> / Pasado continuo',
       significado:
         'tiempo verbal que hace referencia a acciones que se estaban llevando a cabo en un momento del pasado.',
     },
     {
-      termino: '<em>Time expressions</em> / Expresiones de tiempo:',
+      termino: '<em>Time expressions</em> / Expresiones de tiempo',
       significado:
         'son expresiones que dan información sobre el tiempo en que sucede algo y se emplean para hablar del momento en que se realiza una acción.',
     },
@@ -312,7 +312,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
