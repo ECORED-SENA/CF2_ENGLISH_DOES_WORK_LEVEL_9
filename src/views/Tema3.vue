@@ -18,7 +18,7 @@
       .col-lg-9
          AcordionA(tipo="b" clase-tarjeta="bgr_4 tarjeta")
           .row(titulo="Should have").bgr.tarjeta.p-4
-            .col-md-8.mb-4.mb-md-0
+            .col-lg-8.mb-4.mb-lg-0
               span.colr_2 <em>It is used to talk about something that did not happen, but we wish it had happened. Main verbs are always in past participle. </em>
               span.colr_1 / Se utiliza para hablar de algo que no ha sucedido, pero que desearíamos que hubiese sucedido. Los verbos principales siempre están en participio pasado.
               p.mt-3.colr_2 Example. Listen and repeat: 
@@ -28,11 +28,11 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-md-4
+            .col-lg-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/3.png", alt="alt")
           .row(titulo="Could have").bgr.tarjeta.p-4
-            .col-md-8.mb-4.mb-md-0
+            .col-lg-8.mb-4.mb-lg-0
               span.colr_2 <em>It is used to talk about something that was or was not possible in a moment in the past. Main verbs are always in past participle.</em>
               span.colr_1 / Se utiliza para hablar de algo que fue o no fue posible en un momento del pasado. Los verbos principales siempre están en participio pasado.
               p.mt-3.colr_2 Example. Listen and repeat: 
@@ -42,11 +42,11 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-md-4
+            .col-lg-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/4.png", alt="alt")
           .row(titulo="Might have").bgr.tarjeta.p-4
-            .col-md-8.mb-4.mb-md-0
+            .col-lg-8.mb-4.mb-lg-0
               span.colr_2 <em>It is used to talk about an action we believe is possible that took place, but we do not know for sure. Main verbs are always in past participle.</em>
               span.colr_1 / Se utiliza para hablar de una acción que creemos que es posible que tuviera lugar, pero no lo sabemos con seguridad. Los verbos principales siempre están en participio pasado.
               p.mt-3.colr_2 Example. Listen and repeat: 
@@ -56,11 +56,11 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-md-4
+            .col-lg-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/5.png", alt="alt")
           .row(titulo="Must have").bgr.tarjeta.p-4
-            .col-md-8.mb-4.mb-md-0
+            .col-lg-8.mb-4.mb-lg-0
               span.colr_2 <em>It is used to talk about an action we believe that definitely occurred. Main verbs are always in past participle.</em>
               span.colr_1 / Se utiliza para hablar de una acción que creemos que definitivamente ocurrió. Los verbos principales siempre están en participio pasado.
               p.mt-3.colr_2 Example. Listen and repeat: 
@@ -70,11 +70,11 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-md-4
+            .col-lg-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/6.png", alt="alt")
           .row(titulo="Have to").bgr.tarjeta.p-4
-            .col-md-8.mb-4.mb-md-0
+            .col-lg-8.mb-4.mb-lg-0
               span.colr_2 <em>We use it to talk about obligation, things that are essential to do, or to give guidance about things that are a good idea to do.</em>
               span.colr_1 / Lo utilizamos para hablar de obligación, de cosas que es imprescindible hacer, o para orientar sobre cosas que es buena idea hacer.
               p.mt-3.colr_2 Example. Listen and repeat: 
@@ -84,17 +84,17 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-md-4
+            .col-lg-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/7.png", alt="alt")
       .col-lg-3
         figure.d-flex.justify-content-center
-          img.w-auto(src="@/assets/curso/tema3/2.svg", alt="alt")
+          img.d-none.d-lg-flex.w-auto(src="@/assets/curso/tema3/2.svg", alt="alt")
     
     .bg_grad-09
       .row.position-relative
         img.pst_2(src="@/assets/curso/tema3/9.svg", alt="alt")
-        .col-lg-4
+        .col-lg-4.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema3/8.png", alt="alt")
         .col-lg-8
@@ -131,7 +131,7 @@
                     span <em>(come) to see you! I didn't know you were ill.</em>
                   td.text-center <em>(past willingness)</em>
           .row.justify-content-center
-            .col-lg-6
+            .col-8.col-xl-6
               a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                 span Click to check the correct answers
                 i.fas.fa-eye

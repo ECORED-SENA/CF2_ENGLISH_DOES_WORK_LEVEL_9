@@ -187,6 +187,23 @@
     background-color: white
     border: 2px solid #3C3FA7
     border-radius: 20px
+  &_11
+    background-image: url("../assets/curso/tema2/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 40px
+  &_12
+    background-color: #D5D6F0
+  &_13
+    .traduccionAudio__chat__item__message__bubble
+      background-color: white !important
+      border-radius: 20px
+      border: 2px solid #3C3FA7
+      padding: 0.5rem !important
+    .textAudio__ing
+      color: $color-acento-contenido
+  &_14
+    background-color: #FFF7DA
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -201,6 +218,11 @@
     width: calc(100% + 6rem)
     height: calc(100% + 2rem)
     background-color: #F0F4FF
+    @media ( max-width: $bp-max-lg )
+      top: -8%    
+      height: calc(100% + 4rem)
+    @media ( max-width: $bp-max-md )
+      top: -4%
 .bg_grad-02
   position: relative
   .col, h3, p, figure
@@ -215,6 +237,12 @@
     height: 76%
     background-color: white
     border-radius: 20px
+    @media ( max-width: $bp-max-lg )
+      top: 7%
+      height: 84%
+    @media ( max-width: $bp-max-md )
+      top: 4%
+      width: 94%
 .bg_grad-03
   position: relative
   .row, .slyder-f 
@@ -228,6 +256,9 @@
     width: calc(100% + 6rem)
     height: 80%
     background-color: #A6BBFF
+    @media ( max-width: $bp-max-lg )
+      top: 14%
+      height: 90%
 .bg_grad-04
   position: relative
   .row, .slyder-f 
@@ -271,6 +302,13 @@
     background-color: white
     border-bottom-left-radius: 20px
     border-bottom-right-radius: 20px
+    @media ( max-width: $bp-max-lg )
+      width: 429px
+    @media ( max-width: $bp-max-md )
+      width: 571px
+      left: 25px
+    @media ( max-width: $bp-max-xs )
+      width: 328px
 .bg_grad-07
   position: relative
   .row, .slyder-f
@@ -300,6 +338,14 @@
     height: calc(100% + 2rem)
     background-color: #A6BBFF
     border-radius: 20px
+    @media ( max-width: $bp-max-md )
+      left: -4%
+      width: calc(100% + 3rem)
+      top: 27%
+      height: 77%
+    @media ( max-width: $bp-max-xs )
+      height: 75%
+      width: calc(100% + 2rem)
 .bg_grad-09
   position: relative
   .row, .slyder-f
@@ -315,6 +361,10 @@
     background-image: url("../assets/curso/tema3/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
+    @media ( max-width: $bp-max-md )
+      top: -4%
+    @media ( max-width: $bp-max-xs )
+      height: calc(100% + 3rem)
 .bg_grad-10
   position: relative
   .row, .slyder-f
@@ -361,6 +411,8 @@
     background-repeat: no-repeat
     background-size: cover
     border-radius: 20px
+    @media ( max-width: $bp-max-xs )
+      top: -3%
 .bg_grad-13
   position: relative
   .row
@@ -375,6 +427,10 @@
     height: 44%
     background-color: #A6BBFF
     border-radius: 20px
+    @media ( max-width: $bp-max-md )
+      top: 32%
+      left: 6%
+      height: 67%
 .bg_grad-14
   position: relative
   .row
@@ -389,12 +445,70 @@
     height: 44%
     background-color: #A6BBFF
     border-radius: 20px
+    @media ( max-width: $bp-max-md )
+      top: 32%
+      left: 6%
+      height: 67%
+.bg_grad-15
+  position: relative
+  .row, p, .bgr_11 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: 23%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 77%
+    background-color: #C4D1FF
+.bg_grad-16
+  position: relative
+  .row, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem   
+    top: 9%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 97%
+    background-image: url("../assets/curso/tema2/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-17
+  position: relative
+  .row, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem  
+    top: 35%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 68%
+    background-image: url("../assets/curso/tema2/fondo3.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    
 //POSICION EN PANTALLA//
 .pst
   position: absolute
   bottom: -28%
   left: 0%
   width: 83px
+  @media ( max-width: $bp-max-lg )
+    bottom: -15%
+    left: -8%
+  @media ( max-width: $bp-max-md )
+    bottom: -20%
+    left: -3%
+  @media ( max-width: $bp-max-xs )
+    bottom: -12%
+    left: -1%
+  
   &_1
     background-repeat: no-repeat
     background-size: cover
@@ -416,6 +530,9 @@
     bottom: -4%
     right: -4%
     width: 85px
+    @media ( max-width: $bp-max-xs )
+      bottom: 0
+      
 //MARGIN//
 .mgb
   margin-bottom: 70px
@@ -457,3 +574,11 @@
   thead
     border-top: none
     background-color: #4A4CB4
+.slyder-a__tipo-b .slyder-a__btn--sigt, .slyder-a__tipo-b .slyder-a__btn--atrs, .slyder-a__bullets__item--active, 
+  background-color: #FED947 !important
+  border-color: #FED947 !important
+.slyder-a__bullets__item
+  background-color: #FFF0B5
+  border-color: #FFF0B5
+
+

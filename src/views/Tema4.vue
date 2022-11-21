@@ -7,11 +7,11 @@
         span 4
       h1 <em>Third conditional: regret</em> (Tercer condicional: arrepentimiento) 
     
-    .row.mb-5
-      .col-lg-4
+    .row
+      .col-lg-4.order-2.order-lg-1
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema4/1.svg", alt="alt")
-      .col-lg-8
+      .col-lg-8.order-1.order-lg-2.mb-3.mb-lg-0
         TraduccionT.color-acento-botones(:dialogo="dialogo1")(data-aos="flip-up")
     
     separador
@@ -24,17 +24,17 @@
         TraduccionT.color-acento-botones.mb-3(:dialogo="dialogo2")(data-aos="flip-up")
         .bgr_6.p-4
           .row.mb-3
-            .col-lg-2.d-flex.align-items-center
+            .col-2.d-flex.align-items-center
               Audio.color-acento-botones.m-auto(
                 :audio="require('@/assets/componentes/audios/tema4/1.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorAudio")
-            .col-lg-10
+            .col-10
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema4/3.svg", alt="alt")
           .row
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema4/4.svg", alt="alt")
             .col-lg-7
@@ -53,10 +53,10 @@
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
       .col-lg-3
         figure.d-flex.justify-content-center
-          img.w-auto(src="@/assets/curso/tema4/2.svg", alt="alt")
+          img.d-none.d-lg-flex.w-auto(src="@/assets/curso/tema4/2.svg", alt="alt")
 
     .row
-      .col-lg-2
+      .col-lg-2.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema4/5.svg", alt="alt")
       .col-lg-10
@@ -71,22 +71,22 @@
       .row.mb-5
         .col-lg-3
           figure.d-flex.justify-content-center
-            img.w-auto(src="@/assets/curso/tema4/6.svg", alt="alt")
+            img.d-none.d-lg-flex.w-auto(src="@/assets/curso/tema4/6.svg", alt="alt")
         .col-lg-9
           TraduccionT.color-acento-botones.mb-3(:dialogo="dialogo4")(data-aos="flip-up")
           .bgr_7.p-4
             .row.mb-3
-              .col-lg-2.d-flex.align-items-center
+              .col-2.d-flex.align-items-center
                 Audio.color-acento-botones.m-auto(
                   :audio="require('@/assets/componentes/audios/tema4/4.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-              .col-lg-10
+              .col-10
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema4/7.svg", alt="alt")
             .row
-              .col-lg-5
+              .col-lg-5.mb-3.mb-lg-0
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema4/8.svg", alt="alt")
               .col-lg-7
@@ -111,27 +111,27 @@
     
     .bg_grad-11
       .row.mb-5
-        .col-lg-9
+        .col-lg-9.order-2.order-lg-1
           TraduccionT.color-acento-botones.mb-3(:dialogo="dialogo5")
-        .col-lg-3
+        .col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema4/9.svg", alt="alt")
       .row.mb-5
         .col-lg-3
           figure.d-flex.justify-content-center
-            img.w-auto(src="@/assets/curso/tema4/10.svg", alt="alt")
+            img.d-none.d-lg-flex.w-auto(src="@/assets/curso/tema4/10.svg", alt="alt")
         .col-lg-9
           .bgr_8.p-4
             span.colr_2 <em>There is another way of writing these sentences, let’s see it.</em>
             span.colr_1 / Hay otra forma de escribir estas oraciones, veámosla.
             .row.mb-3.mt-3
-              .col-lg-1.d-flex.align-items-center
+              .col-2.d-flex.align-items-center
                 Audio.color-acento-botones.m-auto(
                   :audio="require('@/assets/componentes/audios/tema4/7.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-              .col-lg-10
+              .col-10
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema4/11.svg", alt="alt")
             p.mb-0.colr_2 <em>“No comma”.</em>
@@ -146,7 +146,7 @@
                   img.w-auto(src="@/assets/curso/tema4/12.svg", alt="alt")
               .row.justify-content-center
                 .col-lg-10  
-                  .bgr_9.p-4
+                  .bgr_9.p-2.p-lg-5
                     TraduccionChat.color-acento-botones.pst_3(:dialogo="traduccionChat")
           img.pst_4(src="@/assets/curso/tema4/13.svg", alt="alt")
           img.pst_5(src="@/assets/curso/tema4/14.svg", alt="alt")

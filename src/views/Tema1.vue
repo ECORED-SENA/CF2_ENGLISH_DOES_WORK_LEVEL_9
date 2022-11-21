@@ -8,22 +8,22 @@
       h1 <em>The author creates a serene atmosphere</em> (El autor crea una atmósfera serena)
       
     .row.mb-5
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/1.png", alt="alt")
       .col-lg-9
         TraduccionT.color-acento-botones(:dialogo="dialogo1")(data-aos="flip-up")
 
     .row.bgr_2.tarjeta.p-5.bg_grad-02.mb-5
-      .col-lg-10.d-flex.align-items-center
-        SlyderE(indicadores="derecha")
+      .col-lg-10
+        SlyderE.mt-4(indicadores="derecha")
           div
             h4.colr_2 <em>Balance</em>
             span.colr_2 <em>It refers to the arrangement of one or more elements in a work of art so that they appear symmetrical.</em> 
             span.colr_1 / Se refiere a la disposición de uno o más elementos en una obra de arte para que parezcan simétricos.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
-              .col-lg-2
+              .col-lg-2.mb-3.mb-lg-0
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema1/3.svg", alt="alt")
               .col-lg-9
@@ -40,7 +40,7 @@
             span.colr_1 / se refiere a la utilización de elementos opuestos cercanos o al lado del otro.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
-              .col-lg-2
+              .col-lg-2.mb-3.mb-lg-0
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema1/4.svg", alt="alt")
               .col-lg-9
@@ -57,7 +57,7 @@
             span.colr_1 / se refiere al centro de interés de una obra de arte, es la parte en la que se quiere que se centre el espectador.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
-              .col-lg-2
+              .col-lg-2.mb-3.mb-lg-0
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema1/5.svg", alt="alt")
               .col-lg-9
@@ -74,7 +74,7 @@
             span.colr_1 / tiene que ver con el brillo de un color.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
-              .col-lg-2
+              .col-lg-2.mb-3.mb-lg-0
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema1/6.svg", alt="alt")
               .col-lg-9
@@ -91,7 +91,7 @@
             span.colr_1 / se refiere a un equilibrio realizado mediante el uso de partes o elementos desequilibrados.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
-              .col-lg-2
+              .col-lg-2.mb-3.mb-lg-0
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema1/7.svg", alt="alt")
               .col-lg-9
@@ -108,7 +108,7 @@
             span.colr_1 / se refiere a la forma en que las cosas se sienten o se ven cuando se tocan.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
-              .col-lg-2
+              .col-lg-2.mb-3.mb-lg-0
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema1/8.svg", alt="alt")
               .col-lg-9
@@ -282,7 +282,7 @@
           p Aprender gramática es difícil, pero ayuda mucho.
 
     .row.mb-5
-      .col-lg-5
+      .col-lg-5.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/20.png", alt="alt")
       .col-lg-7
@@ -305,9 +305,9 @@
       h2 1.2 <em>Unfortunate events</em> (Eventos desafortunados)
     
     .row.mb-5
-      .col-lg-7
+      .col-lg-7.order-2.order-lg-1
         TraduccionT.color-acento-botones(:dialogo="dialogo5")(data-aos="flip-up")
-      .col-lg-5
+      .col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/22.png", alt="alt")
 
@@ -384,12 +384,12 @@
       
       .bg_grad-08
         .row
-          .col-lg-4
+          .col-lg-4.order-2.order-lg-1
             TraduccionT.color-acento-botones(:dialogo="dialogo6")(data-aos="flip-up")
-          .col-lg-3.d-flex.align-items-end
+          .col-lg-3.d-flex.align-items-end.order-1.order-lg-2.mb-3.mb-lg-0
             figure.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema1/29.svg", alt="alt")
-          .col-lg-5
+          .col-lg-5.order-3.order-lg-3
             SlyderE.bgr(indicadores="derecha")
               TraduccionChat.color-acento-botones(:dialogo="traduccionChat1")
               TraduccionChat.color-acento-botones(:dialogo="traduccionChat2")
