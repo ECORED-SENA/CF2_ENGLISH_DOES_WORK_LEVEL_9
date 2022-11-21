@@ -297,7 +297,7 @@
             .row.justify-content-center
               .col-lg-11
                 .bg_grad-06
-                  TraduccionChat.color-acento-botones(:dialogo="traduccionChat")
+                  TraduccionChat.color-acento-botones(:dialogo="traduccionChat")(data-aos="flip-up")
     
     separador
 
