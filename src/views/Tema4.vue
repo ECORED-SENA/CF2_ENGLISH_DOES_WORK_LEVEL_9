@@ -98,7 +98,7 @@
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 TarjetaAudio.color-acento-contenido.mb-3.colr_3(
-                  texto="<em>George would have brought his car if he had put gas .</em>"
+                  texto="<em>George would have brought his car if he had put gas.</em>"
                   :audio="require('@/assets/componentes/audios/tema4/6.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -175,7 +175,7 @@ export default {
         textoIng:
           '<em>The third conditional is used to talk about situations of the past that did not occur, but we fantasize about what could have happened. In order to do that, it is necessary to use two elements, as in all the conditionals: for the condition, we need the past perfect, and to show the result, we use the expression “would have” plus the verb in past participle.</em>',
         textoEsp:
-          'El tercer condicional se utiliza para hablar de situaciones del pasado que no ocurrieron, pero fantaseamos con lo que podría haber ocurrido. Para ello, es necesario utilizar dos elementos, como en todos los condicionales: para la condición, necesitamos el pasado perfecto, y para mostrar el resultado, utilizamos la expresión "would have" más el verbo en participio pasado.',
+          'El tercer condicional se utiliza para hablar de situaciones del pasado que no ocurrieron, pero fantaseamos con lo que podría haber ocurrido. Para ello, es necesario utilizar dos elementos, como en todos los condicionales: para la condición, necesitamos el pasado perfecto, y para mostrar el resultado, utilizamos la expresión "<em>would have</em>" más el verbo en participio pasado.',
       },
     ],
     dialogo2: [
@@ -183,7 +183,7 @@ export default {
         textoIng:
           '<em>The condition is created by using the past perfect, which is a tense that helps you show events that occurred before another event in the past. It is similar to present perfect in structure; however, past perfect uses “HAD” as an auxiliary verb. There isn’t a different auxiliary verb for the third person (he, she, it), all of the pronouns use the same auxiliary verb (HAD). <br><br>Let’s see the general structure in the following chart:</em>',
         textoEsp:
-          'La condición se crea utilizando el pasado perfecto, que es un tiempo verbal que ayuda a mostrar eventos que ocurrieron antes de otro evento en el pasado. Su estructura es similar a la del pretérito perfecto; sin embargo, el pretérito perfecto utiliza "HAD" como verbo auxiliar. No hay un verbo auxiliar diferente para la tercera persona (he, she, it), todos los pronombres utilizan el mismo verbo auxiliar (HAD). <br><br>Veamos la estructura general en el siguiente cuadro:',
+          'La condición se crea utilizando el pasado perfecto, que es un tiempo verbal que ayuda a mostrar eventos que ocurrieron antes de otro evento en el pasado. Su estructura es similar a la del pretérito perfecto; sin embargo, el pretérito perfecto utiliza "<em>HAD</em>" como verbo auxiliar. No hay un verbo auxiliar diferente para la tercera persona (<em>he, she, it</em>), todos los pronombres utilizan el mismo verbo auxiliar (<em>HAD</em>). <br><br>Veamos la estructura general en el siguiente cuadro:',
       },
     ],
     dialogo3: [
@@ -199,7 +199,7 @@ export default {
         textoIng:
           '<em>The result in the third conditional is expressed with “would have”, which is just an expression that helps you show something you would have liked to do. There is only one important rule: the verb after “would have” has to be written in the past participle.<br><br>Let’s see the general structure in the following chart:</em>',
         textoEsp:
-          'El resultado en el tercer condicional se enuncia con "<em>would have</em>", que es solo una expresión que le ayuda a mostrar algo que le hubiera gustado hacer. Solo hay una regla importante: el verbo que sigue a "would have" tiene que escribirse en participio pasado. <br><br>Veamos la estructura general en el siguiente cuadro:',
+          'El resultado en el tercer condicional se enuncia con "<em>would have</em>", que es solo una expresión que le ayuda a mostrar algo que le hubiera gustado hacer. Solo hay una regla importante: el verbo que sigue a "<em>would have</em>" tiene que escribirse en participio pasado. <br><br>Veamos la estructura general en el siguiente cuadro:',
       },
     ],
     dialogo5: [

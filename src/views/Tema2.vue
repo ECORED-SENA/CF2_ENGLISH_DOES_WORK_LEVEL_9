@@ -37,7 +37,7 @@
           .col-8.col-lg-6
             .bgr_10.p-3
               Audio.color-acento-botones.m-auto.mb-3(
-                :audio="require('@/assets/componentes/audios/tema2/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/tema2/1.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorAudio")
@@ -52,7 +52,7 @@
           .col-8.col-lg-6.order-2.order-lg-1
             .bgr_10.p-3
               Audio.color-acento-botones.m-auto.mb-3(
-                :audio="require('@/assets/componentes/audios/tema2/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/tema2/2.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorAudio")
@@ -75,7 +75,7 @@
           .col-8.col-lg-6
             .bgr_10.p-3
               Audio.color-acento-botones.m-auto.mb-3(
-                :audio="require('@/assets/componentes/audios/tema2/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/tema2/3.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorAudio")
@@ -90,7 +90,7 @@
           .col-md-8.col-lg-6.order-2.order-lg-1
             .bgr_10.p-2
               Audio.color-acento-botones.m-auto.mb-3(
-                :audio="require('@/assets/componentes/audios/tema2/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/tema2/4.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorAudio")
@@ -117,7 +117,7 @@
                 p.mb-0 <em>Description: Irregular verbs don’t follow any rule; they all appear in a list: the irregular verb list:</em>
               .col-2.d-flex.align-items-center
                 Audio.color-acento-botones.m-auto(
-                  :audio="require('@/assets/componentes/audios/tema2/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/tema2/5.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -426,7 +426,7 @@ export default {
           '<em><b>Maria had bought a new cellphone before her birthday.</b></em>',
         textoEsp:
           'Maria había comprado un celular nuevo antes de su cumpleaños. ',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/6.mp3'),
       },
     ],
     dialogo4: [
@@ -434,7 +434,7 @@ export default {
         textoIng:
           '<em><b>Bruno had finished his homework before the weekend.</b></em>',
         textoEsp: 'Bruno había terminado su tarea antes del fin de semana.',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/7.mp3'),
       },
     ],
     dialogo5: [
@@ -443,7 +443,7 @@ export default {
           '<em><b>Luisa had called me many times, but I was asleep.</b></em>',
         textoEsp:
           'Luisa me había llamado varias veces, pero yo estaba dormido.',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/8.mp3'),
       },
     ],
     dialogo6: [
@@ -460,7 +460,7 @@ export default {
           '<em><b>Maria hadn’t bought a new cellphone before her birthday.</b></em>',
         textoEsp:
           'Maria no había comprado un celular nuevo antes de su cumpleaños.',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/9.mp3'),
       },
     ],
     dialogo8: [
@@ -468,7 +468,7 @@ export default {
         textoIng:
           '<em><b>Bruno hadn’t finished his homework before the weekend.</b></em>',
         textoEsp: 'Bruno no había terminado su tarea antes del fin de semana.',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/10.mp3'),
       },
     ],
     dialogo9: [
@@ -477,7 +477,7 @@ export default {
           '<em><b>Luisa hadn’t called me many times, but I was asleep.</b></em>',
         textoEsp:
           'Luisa no me había llamado varias veces, pero yo estaba dormido.',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/11.mp3'),
       },
     ],
     dialogo10: [
@@ -486,7 +486,7 @@ export default {
           '<em><b>Had Maria bought a new cellphone before her birthday?</b></em>',
         textoEsp:
           '¿María había comprado un celular nuevo antes de su cumpleaños?',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/12.mp3'),
       },
     ],
     dialogo11: [
@@ -494,7 +494,7 @@ export default {
         textoIng:
           '<em><b>Had Bruno finished his homework before the weekend?</b></em>',
         textoEsp: '¿Bruno había terminado su tarea antes del fin de semana?',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/13.mp3'),
       },
     ],
     dialogo12: [
@@ -503,7 +503,7 @@ export default {
           '<em><b>Had Luisa called me many times, but I was asleep?</b></em>',
         textoEsp:
           '¿Luisa me había llamado varias veces, pero yo estaba dormido?',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/14.mp3'),
       },
     ],
     dialogo13: [
@@ -529,27 +529,27 @@ export default {
           personaje: 'Vivi',
           textoIng: '<em>Had you talked to my mom when I arrived?</em>',
           textoEsp: '¿Habías hablado con mi madre cuando llegué?',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/15.mp3'),
         },
         {
           personaje: 'Mario',
           textoIng:
             '<em>I had tried not to talk to her, but she asked me.</em>',
           textoEsp: 'Había intentado no hablar con ella, pero me lo pidió.',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/16.mp3'),
         },
         {
           personaje: 'Vivi',
           textoIng: '<em>Well, I understand; however, don’t do it again.</em>',
           textoEsp: 'Bueno, lo entiendo; sin embargo, no lo vuelvas a hacer.',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/17.mp3'),
         },
         {
           personaje: 'Mario',
           textoIng:
             '<em>You know I had never done something like that before.</em>',
           textoEsp: 'Sabes que nunca había hecho algo así.',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/18.mp3'),
         },
       ],
     },
@@ -570,14 +570,14 @@ export default {
           textoIng:
             '<em>Had your father *** (fix) the car before your trip?</em>',
           textoEsp: '¿Tu padre había reparado el carro antes de tu viaje?',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/20.mp3'),
           palabra: '<em>fixed</em>',
         },
         {
           personaje: 'Andres',
           textoIng: '<em>Sure! He had already *** (do) it!</em>',
           textoEsp: '¡Por supuesto! ¡Ya lo había hecho!',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/19.mp3'),
           palabra: '<em>done</em>',
         },
         {
@@ -586,14 +586,14 @@ export default {
             '<em>Awesome! I had never *** (know) such a good mechanic.</em>',
           textoEsp:
             '¡Impresionante! Nunca había conocido un mecánico tan bueno.',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/22.mp3'),
           palabra: '<em>known</em>',
         },
         {
           personaje: 'Andres',
           textoIng: '<em>I had *** (tell) you before, he is the best!</em>',
           textoEsp: 'Te lo dije antes, ¡él es el mejor!',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/21.mp3'),
           palabra: '<em>told</em>',
         },
       ],
@@ -610,42 +610,42 @@ export default {
       {
         textoIng: '<em>David had been working on a project since 1987.</em>',
         textoEsp: 'David había estado trabajando en un proyecto desde 1987.',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/23.mp3'),
       },
     ],
     dialogo17: [
       {
         textoIng: '<em>Harry had been doing homework for two hours.</em>',
         textoEsp: 'Harry había estado haciendo su tarea por dos horas.',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/24.mp3'),
       },
     ],
     dialogo18: [
       {
         textoIng: '<em>David hadn’t been working on a project since 1987.</em>',
         textoEsp: 'David no había estado trabajando en un proyecto desde 1987.',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/25.mp3'),
       },
     ],
     dialogo19: [
       {
         textoIng: '<em>Harry hadn’t been doing homework for two hours</em>',
         textoEsp: 'Harry no había estado haciendo su tarea por dos horas.',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/26.mp3'),
       },
     ],
     dialogo20: [
       {
         textoIng: '<em>Had David been working on a project since 1987?</em>',
         textoEsp: '¿David había estado trabajando en un proyecto desde 1987?',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/27.mp3'),
       },
     ],
     dialogo21: [
       {
         textoIng: '<em>Had Harry been doing homework for two hours.</em>',
         textoEsp: '¿Harry había estado haciendo su tarea por dos horas?',
-        audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/tema2/28.mp3'),
       },
     ],
     dialogo22: [
@@ -670,7 +670,7 @@ export default {
           personaje: 'Camila',
           textoIng: '<em>Hey! How have you been?</em>',
           textoEsp: '¡Hola! ¿Cómo has estado?',
-          audio: require('@/assets/componentes/audios/tema1/27.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/29.mp3'),
         },
         {
           personaje: 'Bruno ',
@@ -678,7 +678,7 @@ export default {
             '<em>Hi! I had been working in Scotland, but I came back last week.</em>',
           textoEsp:
             '¡Hola! Había estado trabajando en Escocia, pero volví la semana pasada.',
-          audio: require('@/assets/componentes/audios/tema1/28.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/30.mp3'),
         },
       ],
     },
@@ -696,14 +696,14 @@ export default {
           personaje: 'Camila',
           textoIng: '<em>Had you been living with your cousin?</em>',
           textoEsp: 'Habías estado viviendo con tu prima?',
-          audio: require('@/assets/componentes/audios/tema1/27.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/31.mp3'),
         },
         {
           personaje: 'Bruno ',
           textoIng:
             '<em>Well, I had been living with her and then I moved by myself.</em>',
           textoEsp: 'Bueno, estuve viviendo con ella y luego me mudé solo.',
-          audio: require('@/assets/componentes/audios/tema1/28.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/32.mp3'),
         },
       ],
     },
@@ -724,7 +724,7 @@ export default {
           textoIng: '<em>Hi! Had you been *** me last week?</em>',
           textoEsp:
             '¡Hola! ¿Me habías estado enviando mensajes de texto la semana pasada?',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/33.mp3'),
           palabra: '<em>texting</em>',
         },
         {
@@ -733,14 +733,14 @@ export default {
             '<em>For sure! I had *** sending you text messages and mails, but you never answered.</em>',
           textoEsp:
             '¡Seguro! Te había estado enviando mensajes de texto y correos, pero nunca respondiste.',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/34.mp3'),
           palabra: '<em>been</em>',
         },
         {
           personaje: 'Lola',
           textoIng: '<em>Sorry! I had been *** in the contryside.</em>',
           textoEsp: '¡Perdón! Yo había estado trabajando en el campo.',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/35.mp3'),
           palabra: '<em>working</em>',
         },
         {
@@ -749,7 +749,7 @@ export default {
             '<em>Oh, now I remember you had been *** me for weeks. Sorry, I forgot.</em>',
           textoEsp:
             'Oh, ahora recuerdo que me lo habías estado diciendo durante semanas. Lo siento, me olvidé.',
-          audio: require('@/assets/componentes/audios/tema2/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/tema2/36.mp3'),
           palabra: '<em>telling</em>',
         },
       ],

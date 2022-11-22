@@ -17,11 +17,11 @@
     .row.mgb
       .col-lg-9
          AcordionA(tipo="b" clase-tarjeta="bgr_4 tarjeta")
-          .row(titulo="Should have").bgr.tarjeta.p-4
+          .row(titulo="<em>Should have</em>").bgr.tarjeta.p-4
             .col-lg-8.mb-4.mb-lg-0
               span.colr_2 <em>It is used to talk about something that did not happen, but we wish it had happened. Main verbs are always in past participle. </em>
               span.colr_1 / Se utiliza para hablar de algo que no ha sucedido, pero que desearíamos que hubiese sucedido. Los verbos principales siempre están en participio pasado.
-              p.mt-3.colr_2 Example. Listen and repeat: 
+              p.mt-3.colr_2 <em>Example. Listen and repeat:</em> 
               TarjetaAudio.color-acento-contenido.mb-3.colr_3(
                 texto="<em>I <i>should have</i> drunk more water before leaving home. </em>"
                 :audio="require('@/assets/componentes/audios/tema3/1.mp3')"
@@ -31,11 +31,11 @@
             .col-lg-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/3.png", alt="alt")
-          .row(titulo="Could have").bgr.tarjeta.p-4
+          .row(titulo="<em>Could have</em>").bgr.tarjeta.p-4
             .col-lg-8.mb-4.mb-lg-0
-              span.colr_2 <em>It is used to talk about something that was or was not possible in a moment in the past. Main verbs are always in past participle.</em>
+              span.colr_2 <em>It is used to talk about something that was or was not possible in a moment in the past. Main verbs are always in past participle. </em>
               span.colr_1 / Se utiliza para hablar de algo que fue o no fue posible en un momento del pasado. Los verbos principales siempre están en participio pasado.
-              p.mt-3.colr_2 Example. Listen and repeat: 
+              p.mt-3.colr_2 <em>Example. Listen and repeat:</em> 
               TarjetaAudio.color-acento-contenido.mb-3.colr_3(
                 texto="<em>She <i>could have</i> finished in the morning, but the machine stopped working.</em>"
                 :audio="require('@/assets/componentes/audios/tema3/2.mp3')"
@@ -45,11 +45,11 @@
             .col-lg-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/4.png", alt="alt")
-          .row(titulo="Might have").bgr.tarjeta.p-4
+          .row(titulo="<em>Might have</em>").bgr.tarjeta.p-4
             .col-lg-8.mb-4.mb-lg-0
-              span.colr_2 <em>It is used to talk about an action we believe is possible that took place, but we do not know for sure. Main verbs are always in past participle.</em>
+              span.colr_2 <em>It is used to talk about an action we believe is possible that took place, but we do not know for sure. Main verbs are always in past participle. </em>
               span.colr_1 / Se utiliza para hablar de una acción que creemos que es posible que tuviera lugar, pero no lo sabemos con seguridad. Los verbos principales siempre están en participio pasado.
-              p.mt-3.colr_2 Example. Listen and repeat: 
+              p.mt-3.colr_2 <em>Example. Listen and repeat:</em> 
               TarjetaAudio.color-acento-contenido.mb-3.colr_3(
                 texto="<em>I <i>might have</i> passed the exam if I had studied more.  </em>"
                 :audio="require('@/assets/componentes/audios/tema3/3.mp3')"
@@ -59,11 +59,11 @@
             .col-lg-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/5.png", alt="alt")
-          .row(titulo="Must have").bgr.tarjeta.p-4
+          .row(titulo="<em>Must have</em>").bgr.tarjeta.p-4
             .col-lg-8.mb-4.mb-lg-0
-              span.colr_2 <em>It is used to talk about an action we believe that definitely occurred. Main verbs are always in past participle.</em>
+              span.colr_2 <em>It is used to talk about an action we believe that definitely occurred. Main verbs are always in past participle. </em>
               span.colr_1 / Se utiliza para hablar de una acción que creemos que definitivamente ocurrió. Los verbos principales siempre están en participio pasado.
-              p.mt-3.colr_2 Example. Listen and repeat: 
+              p.mt-3.colr_2 <em>Example. Listen and repeat:</em> 
               TarjetaAudio.color-acento-contenido.mb-3.colr_3(
                 texto="<em>He <i>must have</i> won his soccer match last night; he looks so happy.</em>"
                 :audio="require('@/assets/componentes/audios/tema3/4.mp3')"
@@ -73,11 +73,11 @@
             .col-lg-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/6.png", alt="alt")
-          .row(titulo="Have to").bgr.tarjeta.p-4
+          .row(titulo="<em>Have to</em>").bgr.tarjeta.p-4
             .col-lg-8.mb-4.mb-lg-0
-              span.colr_2 <em>We use it to talk about obligation, things that are essential to do, or to give guidance about things that are a good idea to do.</em>
+              span.colr_2 <em>We use it to talk about obligation, things that are essential to do, or to give guidance about things that are a good idea to do. </em>
               span.colr_1 / Lo utilizamos para hablar de obligación, de cosas que es imprescindible hacer, o para orientar sobre cosas que es buena idea hacer.
-              p.mt-3.colr_2 Example. Listen and repeat: 
+              p.mt-3.colr_2 <em>Example. Listen and repeat:</em> 
               TarjetaAudio.color-acento-contenido.mb-3.colr_3(
                 texto="<em>My students <i>have to</i> finish their homework in class.  </em>"
                 :audio="require('@/assets/componentes/audios/tema3/5.mp3')"
@@ -147,28 +147,28 @@
           tbody.bgr
             tr
               td 1.	<em>I</em> 
-                span.bgr_5 could have bought   
-                span <em> bread but I didn't know we needed it.</em>
+                span.bgr_5 could have bought bread  
+                span <em> but I didn't know we needed it.</em>
               td.text-center <em>(past possibility)</em>
             tr
               td 2.	<em>I</em> 
-                span.bgr_5 shouldn't have 
-                span <em> eaten so much chocolate! I feel sick!</em>
+                span.bgr_5 shouldn't have eaten 
+                span <em> so much chocolate! I feel sick!</em>
               td.text-center <em>(past negative advice / regret)</em>
             tr
               td 3.	<em>I</em> 
-                span.bgr_5 should have 
-                span <em> started saving money years ago!</em>
+                span.bgr_5 should have started 
+                span <em> saving money years ago!</em>
               td.text-center <em>(past advice / regret)</em>
             tr
               td 4.	<em>I</em> 
-                span.bgr_5 couldn't have 
-                span <em> arrived on time, even if I had left earlier. There were dreadful traffic jams all the way.</em>
+                span.bgr_5 couldn't have arrived
+                span <em> on time, even if I had left earlier. There were dreadful traffic jams all the way.</em>
               td.text-center <em>(past negative possibility)</em>
             tr
               td 5.	<em>I</em> 
-                span.bgr_5 would have 
-                span <em> come to see you! I didn't know you were ill.</em>
+                span.bgr_5 would have come
+                span <em> to see you! I didn't know you were ill.</em>
               td.text-center <em>(past willingness)</em>
     
 

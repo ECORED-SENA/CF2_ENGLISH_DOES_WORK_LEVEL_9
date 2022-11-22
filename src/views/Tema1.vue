@@ -19,7 +19,7 @@
         SlyderE.mt-4(indicadores="derecha")
           div
             h4.colr_2 <em>Balance</em>
-            span.colr_2 <em>It refers to the arrangement of one or more elements in a work of art so that they appear symmetrical.</em> 
+            span.colr_2 <em>It refers to the arrangement of one or more elements in a work of art so that they appear symmetrical. </em> 
             span.colr_1 / Se refiere a la disposición de uno o más elementos en una obra de arte para que parezcan simétricos.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
@@ -36,8 +36,8 @@
                 p Esta obra de arte representa el equilibrio en estado puro al mostrar elementos simétricos.
           div
             h4.colr_2 <em>Contrast</em>
-            span.colr_2 <em>It refers to the use of opposites close or beside one another.</em> 
-            span.colr_1 / se refiere a la utilización de elementos opuestos cercanos o al lado del otro.
+            span.colr_2 <em>It refers to the use of opposites close or beside one another. </em> 
+            span.colr_1 / Se refiere a la utilización de elementos opuestos cercanos o al lado del otro.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
               .col-lg-2.mb-3.mb-lg-0
@@ -53,8 +53,8 @@
                 p Gracias al contraste de la imagen, el espectador puede centrarse en el elemento principal.
           div
             h4.colr_2 <em>Focal point</em>
-            span.colr_2 <em>It refers to the center of interest of a piece of art, it is the part you want the viewer to focus on.</em> 
-            span.colr_1 / se refiere al centro de interés de una obra de arte, es la parte en la que se quiere que se centre el espectador.
+            span.colr_2 <em>It refers to the center of interest of a piece of art, it is the part you want the viewer to focus on. </em> 
+            span.colr_1 / Se refiere al centro de interés de una obra de arte, es la parte en la que se quiere que se centre el espectador.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
               .col-lg-2.mb-3.mb-lg-0
@@ -70,8 +70,8 @@
                 p El punto focal de esta fotografía está bien conseguido gracias al desenfoque.
           div
             h4.colr_2 <em>Intensity</em>
-            span.colr_2 <em>It has to do with the brightness of a color.</em> 
-            span.colr_1 / tiene que ver con el brillo de un color.
+            span.colr_2 <em>It has to do with the brightness of a color. </em> 
+            span.colr_1 / Tiene que ver con el brillo de un color.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
               .col-lg-2.mb-3.mb-lg-0
@@ -87,8 +87,8 @@
                 p La intensidad del rojo en esta imagen señala la importancia de este elemento.
           div
             h4.colr_2 <em>Asymmetrical</em>
-            span.colr_2 <em>It refers to a balance done through the use of imbalanced parts or elements.</em> 
-            span.colr_1 / se refiere a un equilibrio realizado mediante el uso de partes o elementos desequilibrados.
+            span.colr_2 <em>It refers to a balance done through the use of imbalanced parts or elements. </em> 
+            span.colr_1 / Se refiere a un equilibrio realizado mediante el uso de partes o elementos desequilibrados.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
               .col-lg-2.mb-3.mb-lg-0
@@ -104,8 +104,8 @@
                 p Debido al elemento asimétrico de la flor, el cuadro resulta extraño.
           div
             h4.colr_2 <em>Texture</em>
-            span.colr_2 <em>It refers to the way things feel or look when touched.</em> 
-            span.colr_1 / se refiere a la forma en que las cosas se sienten o se ven cuando se tocan.
+            span.colr_2 <em>It refers to the way things feel or look when touched. </em> 
+            span.colr_1 / Se refiere a la forma en que las cosas se sienten o se ven cuando se tocan.
             p.mt-3.colr_2 <em>Example:</em>
             .row  
               .col-lg-2.mb-3.mb-lg-0
@@ -144,11 +144,11 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/10.svg", alt="alt")
           h3.text-center.colr_2 <em>Genre</em> / Género
-          span.text-center.colr_2 <em>It is a type of literary or creative work.</em> 
-          span.colr_1 / es un tipo de obra literaria o creativa.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          span.text-center.colr_2 <em>It is a type of literary or creative work. </em> 
+          span.colr_1 / Es un tipo de obra literaria o creativa.
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
-            texto="<em>My favorite <i>genre</i> is horror; I find it interesting</em>"
+            texto="<em>My favorite <i>genre</i> is horror; I find it interesting.</em>"
             :audio="require('@/assets/componentes/audios/tema1/7.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -158,9 +158,9 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/11.svg", alt="alt")
           h3.text-center.colr_2 <em>Epic</em> / Epopeya
-          span.text-center.colr_2 <em>It is an extended narrative poem about the hero's actions.</em> 
-          span.colr_1 / es un poema narrativo extenso sobre las acciones del héroe.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          span.text-center.colr_2 <em>It is an extended narrative poem about the hero's actions. </em> 
+          span.colr_1 / Es un poema narrativo extenso sobre las acciones del héroe.
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
             texto="<em>The Iliad is an incredible <i>epic</i> poem.</em>"
             :audio="require('@/assets/componentes/audios/tema1/8.mp3')"
@@ -172,11 +172,11 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/12.svg", alt="alt")
           h3.text-center.colr_2 <em>Drama</em> / Drama
-          span.text-center.colr_2 <em>It is a piece of literature projected for performance by actors on a stage.</em> 
-          span.colr_1 / es una obra literaria proyectada para ser representada por actores en un escenario.
+          span.text-center.colr_2 <em>It is a piece of literature projected for performance by actors on a stage. </em> 
+          span.colr_1 / Es una obra literaria proyectada para ser representada por actores en un escenario.
           p.text-center.mt-3 <em>Example:</em> / Ejemplo
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
-            texto="<em>I think Hamlet is my favorite <i>drama</i></em>"
+            texto="<em>I think Hamlet is my favorite <i>drama.</i></em>"
             :audio="require('@/assets/componentes/audios/tema1/9.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -186,11 +186,11 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/13.svg", alt="alt")
           h3.text-center.colr_2 <em>Fiction</em> / Ficción
-          span.text-center.colr_2 <em>It is a fictitious work based on the imagination.</em> 
-          span.colr_1 / es una obra ficticia basada en la imaginación.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          span.text-center.colr_2 <em>It is a fictitious work based on the imagination. </em> 
+          span.colr_1 / Es una obra ficticia basada en la imaginación.
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
-            texto="<em>I don’t like <i>fiction</i> books; they are just boring</em>"
+            texto="<em>I don’t like <i>fiction</i> books; they are just boring.</em>"
             :audio="require('@/assets/componentes/audios/tema1/10.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -200,9 +200,9 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/14.svg", alt="alt")
           h3.text-center.colr_2 <em>Alliteration</em> / Aliteración
-          span.text-center.colr_2 <em>It refers to the use of the same consonant at the beginning of each word in a text.</em> 
-          span.colr_1 / se refiere al uso de la misma consonante al principio de cada palabra en un texto.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          span.text-center.colr_2 <em>It refers to the use of the same consonant at the beginning of each word in a text. </em> 
+          span.colr_1 / Se refiere al uso de la misma consonante al principio de cada palabra en un texto.
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
             texto="<em>I hate when authors use <i>alliterations</i>, they are difficult to read. </em>"
             :audio="require('@/assets/componentes/audios/tema1/11.mp3')"
@@ -214,9 +214,9 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/15.svg", alt="alt")
           h3.text-center.colr_2 <em>Novel</em> / Novela
-          span.text-center.colr_2 <em>It is an extended fictional work in prose.</em> 
-          span.colr_1 / es una obra de ficción extensa en prosa.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          span.text-center.colr_2 <em>It is an extended fictional work in prose. </em> 
+          span.colr_1 / Es una obra de ficción extensa en prosa.
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
             texto="<em>I don’t have a favorite <i>novel</i>; they all are amazing.</em>"
             :audio="require('@/assets/componentes/audios/tema1/12.mp3')"
@@ -228,9 +228,9 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/16.svg", alt="alt")
           h3.text-center.colr_2 <em>Essay</em> / Ensayo
-          span.text-center.colr_2 <em>It is an analytic or explanatory literary composition.</em> 
-          span.colr_1 / es una composición literaria analítica o explicativa.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          span.text-center.colr_2 <em>It is an analytic or explanatory literary composition. </em> 
+          span.colr_1 / Es una composición literaria analítica o explicativa.
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
             texto="<em> I had to write an <i>essay</i> on the civil war. </em>"
             :audio="require('@/assets/componentes/audios/tema1/13.mp3')"
@@ -242,9 +242,9 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/17.svg", alt="alt")
           h3.text-center.colr_2 <em>Satire</em> / Sátira
-          span.text-center.colr_2 <em>It refers to amusing language used to send insults or disdain.</em> 
-          span.colr_1 / se refiere al lenguaje divertido que se utiliza para enviar insultos o desprecios.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          span.text-center.colr_2 <em>It refers to amusing language used to send insults or disdain. </em> 
+          span.colr_1 / Se refiere al lenguaje divertido que se utiliza para enviar insultos o desprecios.
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
             texto="<em>“Hard times” by Charles D. is an amazing <i>satire.</i> </em>"
             :audio="require('@/assets/componentes/audios/tema1/14.mp3')"
@@ -256,9 +256,9 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/18.svg", alt="alt")
           h3.text-center.colr_2 <em>Syntax</em> / Sintaxis
-          span.text-center.colr_2 <em>It is the study of the rules for creating acceptable sentences.</em> 
-          span.colr_1 / es el estudio de las reglas para crear oraciones aceptables.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          span.text-center.colr_2 <em>It is the study of the rules for creating acceptable sentences. </em> 
+          span.colr_1 / Es el estudio de las reglas para crear oraciones aceptables.
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
             texto="<em>My teacher found many <i>syntax</i> mistakes in my last essay.</em>"
             :audio="require('@/assets/componentes/audios/tema1/15.mp3')"
@@ -270,9 +270,9 @@
           figure.d-flex.justify-content-center.mb-3
             img.w-auto(src="@/assets/curso/tema1/19.svg", alt="alt")
           h3.text-center.colr_2 <em>Grammar</em> / Gramática
-          span.text-center.colr_2 <em>It is the subdivision of linguistics that deals with sentence structure.</em> 
-          span.colr_1 / es la subdivisión de la lingüística que se ocupa de la estructura de las frases.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          span.text-center.colr_2 <em>It is the subdivision of linguistics that deals with sentence structure. </em> 
+          span.colr_1 / Es la subdivisión de la lingüística que se ocupa de la estructura de las frases.
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
             texto="<em>Learning <i>grammar</i> is difficult, but helps a lot. </em>"
             :audio="require('@/assets/componentes/audios/tema1/16.mp3')"
@@ -318,7 +318,7 @@
             .tarjeta.p-4.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/23.png')})`}" style='height: 500px').pst_1
               .tarjeta.bgr.p-3
                 h3.text-center.colr_4 <em>Be robbed</em> #[.colr_1 / Ser robado]
-                p.text-center.mt-3 <em>Example:</em> / Ejemplo
+                p.text-center.mt-3 <em>Example:</em> / Ejemplo:
                 TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
                   texto="<em>I have <i>been robbed</i> twice this week. </em>"
                   :audio="require('@/assets/componentes/audios/tema1/21.mp3')"
@@ -329,7 +329,7 @@
             .tarjeta.p-4.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/24.png')})`}" style='height: 500px').pst_1
               .tarjeta.bgr.p-4
                 h3.text-center.colr_4 <em>Have an accident</em> #[.colr_1 / Tener un accidente]
-                p.text-center.mt-3 <em>Example:</em> / Ejemplo
+                p.text-center.mt-3 <em>Example:</em> / Ejemplo:
                 TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
                   texto="<em>She had never <i>had an accident</i> before this one.</em>"
                   :audio="require('@/assets/componentes/audios/tema1/22.mp3')"
@@ -340,7 +340,7 @@
             .tarjeta.p-4.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/25.png')})`}" style='height: 500px').pst_1
               .tarjeta.bgr.p-4
                 h3.text-center.colr_4 <em>Be rejected</em> #[.colr_1 / Ser rechazado]
-                p.text-center.mt-3 <em>Example:</em> / Ejemplo
+                p.text-center.mt-3 <em>Example:</em> / Ejemplo:
                 TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
                   texto="<em>Danna had <i>been rejected</i> many times before she entered. </em>"
                   :audio="require('@/assets/componentes/audios/tema1/23.mp3')"
@@ -350,8 +350,8 @@
                 p.mb-0 Danna había sido rechazada muchas veces antes de entrar.
             .tarjeta.p-4.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/26.png')})`}" style='height: 500px').pst_1
               .tarjeta.bgr.p-4
-                h3.text-center.colr_4 <em>Lose mone</em> #[.colr_1 / Perder dinero]
-                p.text-center.mt-3 <em>Example:</em> / Ejemplo
+                h3.text-center.colr_4 <em>Lose money</em> #[.colr_1 / Perder dinero]
+                p.text-center.mt-3 <em>Example:</em> / Ejemplo:
                 TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
                   texto="<em>Harold has lost a <i>lot of money</i> due to gambling.</em>"
                   :audio="require('@/assets/componentes/audios/tema1/24.mp3')"
@@ -362,7 +362,7 @@
             .tarjeta.p-4.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/27.png')})`}" style='height: 500px').pst_1
               .tarjeta.bgr.p-4
                 h3.text-center.colr_4 <em>Be fired</em> #[.colr_1 / Ser despedido]
-                p.text-center.mt-3 <em>Example:</em> / Ejemplo
+                p.text-center.mt-3 <em>Example:</em> / Ejemplo:
                 TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
                   texto="<em> Wilson had never <i>been fired.</i></em>"
                   :audio="require('@/assets/componentes/audios/tema1/25.mp3')"
@@ -373,7 +373,7 @@
             .tarjeta.p-4.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/28.png')})`}" style='height: 500px').pst_1
               .tarjeta.bgr.p-4
                 h3.text-center.colr_4 <em>A flood</em> #[.colr_1 / Una inundación]
-                p.text-center.mt-3 <em>Example:</em> / Ejemplo
+                p.text-center.mt-3 <em>Example:</em> / Ejemplo:
                 TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
                   texto="<em> My town has <i>had 3 floods</i> this winter.</em>"
                   :audio="require('@/assets/componentes/audios/tema1/26.mp3')"
