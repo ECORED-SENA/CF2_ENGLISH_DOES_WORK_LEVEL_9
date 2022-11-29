@@ -8,7 +8,7 @@
       h1 <em>Third conditional: regret</em> (Tercer condicional: arrepentimiento) 
     
     .row
-      .col-lg-4.order-2.order-lg-1
+      .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema4/1.svg", alt="alt")
       .col-lg-8.order-1.order-lg-2.mb-3.mb-lg-0
@@ -22,7 +22,7 @@
     .row.mb-5
       .col-lg-9
         TraduccionT.color-acento-botones.mb-3(:dialogo="dialogo2")(data-aos="flip-up")
-        .bgr_6.p-4
+        .bgr_6.p-4(data-aos="zoom-in")
           .row.mb-3
             .col-2.d-flex.align-items-center
               Audio.color-acento-botones.m-auto(
@@ -51,7 +51,7 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         figure.d-flex.justify-content-center
           img.d-none.d-lg-flex.w-auto(src="@/assets/curso/tema4/2.svg", alt="alt")
 
@@ -69,10 +69,10 @@
     
     .bg_grad-10
       .row.mb-5
-        .col-lg-3
+        .col-lg-3(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.d-none.d-lg-flex.w-auto(src="@/assets/curso/tema4/6.svg", alt="alt")
-        .col-lg-9
+        .col-lg-9(data-aos="fade-right")
           TraduccionT.color-acento-botones.mb-3(:dialogo="dialogo4")(data-aos="flip-up")
           .bgr_7.p-4
             .row.mb-3
@@ -113,7 +113,7 @@
       .row.mb-5
         .col-lg-9.order-2.order-lg-1
           TraduccionT.color-acento-botones.mb-3(:dialogo="dialogo5")
-        .col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0
+        .col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema4/9.svg", alt="alt")
       .row.mb-5
@@ -136,7 +136,7 @@
                   img.w-auto(src="@/assets/curso/tema4/11.svg", alt="alt")
             p.mb-0.colr_2 <em>“No comma”.</em>
 
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="zoom-in")
         .col-lg-8.position-relative
           .bg_grad-12
             .row.p-4.justify-content-center

@@ -8,14 +8,14 @@
       h1 <em>Modal verbs in the past</em> (Verbos modales en pasado) 
     
     .row.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/1.svg", alt="alt")
       .col-lg-8
         TraduccionT.color-acento-botones(:dialogo="dialogo1")(data-aos="flip-up")
     
     .row.mgb
-      .col-lg-9
+      .col-lg-9(data-aos="zoom-in")
          AcordionA(tipo="b" clase-tarjeta="bgr_4 tarjeta")
           .row(titulo="<em>Should have</em>").bgr.tarjeta.p-4
             .col-lg-8.mb-4.mb-lg-0
@@ -94,10 +94,10 @@
     .bg_grad-09
       .row.position-relative
         img.pst_2(src="@/assets/curso/tema3/9.svg", alt="alt")
-        .col-lg-4.mb-3.mb-lg-0
+        .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema3/8.png", alt="alt")
-        .col-lg-8
+        .col-lg-8(data-aos="fade-left")
           .tabla-a.color-acento-botones.mb-5 
             table
               thead

@@ -10,7 +10,7 @@
     .row
       .col-lg-8
         TraduccionT.color-acento-botones(:dialogo="dialogo1")(data-aos="flip-up")
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/1.svg", alt="alt")
     
@@ -20,7 +20,7 @@
       h2 2.1 <em>Past perfect</em> (Pasado perfecto)
     
     .row.mb-5
-      .col-lg-3.mb-3.mb-lg-0
+      .col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/2.png", alt="alt")
       .col-lg-9
@@ -29,7 +29,7 @@
     h4.text-center.mb-3.mb-lg-5 <em>Regular verbs</em> / Verbos regulares
 
     .row.mb-5
-      .col-xl-6.bg_grad-13
+      .col-xl-6.bg_grad-13(data-aos="fade-right")
         .row.d-flex.align-items-center.p-4.justify-content-center
           .col-lg-6
             figure.d-flex.justify-content-center
@@ -47,7 +47,7 @@
                 p.mb-0 Example:
                 p.mb-0 Walk → Walked
                 p.mb-0 Play → Played
-      .col-xl-6.bg_grad-14
+      .col-xl-6.bg_grad-14(data-aos="fade-left")
         .row.d-flex.align-items-center.p-4.justify-content-center
           .col-8.col-lg-6.order-2.order-lg-1
             .bgr_10.p-3
@@ -67,7 +67,7 @@
               img.w-auto(src="@/assets/curso/tema2/4.svg", alt="alt")
     
     .row.mb-5
-      .col-xl-6.bg_grad-13
+      .col-xl-6.bg_grad-13(data-aos="fade-left")
         .row.a.d-flex.align-items-center.p-4.justify-content-center
           .col-lg-6
             figure.d-flex.justify-content-center
@@ -85,7 +85,7 @@
                 p.mb-0 Example:
                 p.mb-0 Study →  Studied
                 p.mb-0 Copy →  Copied
-      .col-xl-6.bg_grad-14
+      .col-xl-6.bg_grad-14(data-aos="fade-right")
         .row.a.d-flex.align-items-center.p-4.justify-content-center
           .col-md-8.col-lg-6.order-2.order-lg-1
             .bgr_10.p-2
@@ -109,7 +109,7 @@
     
     .bg_grad-15
       .bgr_11.p-4.mb-5
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="zoom-out")
           h4.text-center.mb-5 <em>Irregular verbs</em> / Verbos irregulares
           .col-lg-5.mb-3.mb-lg-0
             .row.bgr_10.mb-3
@@ -181,7 +181,7 @@
                   td <em>broke</em>
                   td <em>broken</em>
 
-      .row.justify-content-center.mgb
+      .row.justify-content-center.mgb(data-aos="zoom-in")
         .col-lg-10
           p.mb-5 <em>Let’s see how to write or say affirmative, negative, and question sentences in past perfect:</em> 
             span / Veamos cómo escribir o decir frases afirmativas, negativas e interrogativas en pasado perfecto:
@@ -193,7 +193,7 @@
                   span.colr_1 / Ahora que hemos repasado cómo poner los verbos en el participio pasado, veamos cómo escribir o decir frases afirmativas en el pasado perfecto:
                 figure.d-flex.justify-content-center.mb-5
                   img.w-auto(src="@/assets/curso/tema2/8.svg", alt="alt") 
-                p.text-center.colr_2.mb-5 Examples. Listen and repeat:
+                p.text-center.colr_2.mb-5 <em>Examples. Listen and repeat:</em>
                 .row
                   .col-lg-5
                     figure.d-flex.justify-content-center.mb-5
@@ -208,7 +208,7 @@
                 TraduccionT.color-acento-botones(:dialogo="dialogo6")(data-aos="flip-up")
                 figure.d-flex.justify-content-center.mb-5
                   img.w-auto(src="@/assets/curso/tema2/12.svg", alt="alt") 
-                p.text-center.colr_2.mb-5 Examples. Listen and repeat:
+                p.text-center.colr_2.mb-5 <em>Examples. Listen and repeat:</em>
                 .row
                   .col-lg-5
                     figure.d-flex.justify-content-center.mb-5
@@ -225,7 +225,7 @@
 
                 figure.d-flex.justify-content-center.mb-5
                   img.w-auto(src="@/assets/curso/tema2/13.svg", alt="alt") 
-                p.text-center.colr_2.mb-5 Examples. Listen and repeat:
+                p.text-center.colr_2.mb-5 <em>Examples. Listen and repeat:</em>
                 .row
                   .col-lg-5
                     figure.d-flex.justify-content-center.mb-5
@@ -241,7 +241,7 @@
         TraduccionT.color-acento-botones.mb-3(:dialogo="dialogo6")(data-aos="flip-up")
         figure.d-flex.justify-content-center
           img.d-none.d-lg-flex.w-auto(src="@/assets/curso/tema2/14.svg", alt="alt")
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/15.svg", alt="alt")
         .bg_grad-05
@@ -253,7 +253,7 @@
     p.mb-5.colr_2 <em>After working on the past perfect, it is a good idea to practice it in a conversation. Complete the following dialogue: </em>
       span.colr_1 / Después de trabajar el pasado perfecto, es conveniente practicarlo en una conversación. Complete el siguiente diálogo:
     
-    Dialogo.color-primario(:dialogo="dialogo14")
+    Dialogo.color-primario(:dialogo="dialogo14")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Titulo de actividad - Completa la conversación.
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
@@ -267,7 +267,7 @@
       .row
         .col-lg-9
           TraduccionT.color-acento-botones.mb-3(:dialogo="dialogo15")(data-aos="flip-up")
-        .col-lg-3
+        .col-lg-3(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/18.svg", alt="alt")
       
@@ -309,7 +309,7 @@
       span.colr_1 / Después de aprender a poner los verbos en forma ING, es necesario entender cómo se construyen las oraciones afirmativas, negativas e interrogativas y la forma en que se colocan los verbos:
     
     .bg_grad-17
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="zoom-in")
         .col-lg-10
           .bgr_1.tarjeta.p-4.mb-5
             SlyderA(tipo="b")
@@ -325,7 +325,7 @@
                       img.w-auto(src="@/assets/curso/tema2/23.svg", alt="alt")
                   .col-lg-7.d-flex.justify-content-center
                     div
-                      p.text-white Examples. Listen and repeat:
+                      p.text-white <em>Examples. Listen and repeat:</em>
                       TraduccionAudio.color-acento-botoneso.bgr_13(:dialogo="dialogo16")
                       TraduccionAudio.color-acento-botoneso.bgr_13(:dialogo="dialogo17")
               div
@@ -340,7 +340,7 @@
                       img.w-auto(src="@/assets/curso/tema2/23.svg", alt="alt")
                   .col-lg-7.d-flex.justify-content-center
                     div
-                      p.text-white Examples. Listen and repeat:
+                      p.text-white <em>Examples. Listen and repeat:</em>
                       TraduccionAudio.color-acento-botoneso.bgr_13(:dialogo="dialogo18")
                       TraduccionAudio.color-acento-botoneso.bgr_13(:dialogo="dialogo19")
               div
@@ -355,7 +355,7 @@
                       img.w-auto(src="@/assets/curso/tema2/23.svg", alt="alt")
                   .col-lg-7.d-flex.justify-content-center
                     div
-                      p.text-white Examples. Listen and repeat:
+                      p.text-white <em>Examples. Listen and repeat:</em>
                       TraduccionAudio.color-acento-botoneso.bgr_13(:dialogo="dialogo20")
                       TraduccionAudio.color-acento-botoneso.bgr_13(:dialogo="dialogo21")
 
@@ -374,7 +374,7 @@
     p.colr_2 <em>Now, let’s practice this grammar tense by completing the following dialogue with the correct form of the verb. Remember that in past perfect continuous we use the verb in ING form. Only the verb “to be” is conjugated in past participle, as seen in the grammar charts.</em> 
       span.colr_1 Ahora, vamos a practicar este tiempo gramatical completando el siguiente diálogo con la forma correcta del verbo. Recuerde que en el pretérito perfecto continuo utilizamos el verbo en forma ING. Solo el verbo "to be" se conjuga en participio pasado, como se ve en las tablas gramaticales.
 
-    Dialogo.color-primario(:dialogo="dialogo23")
+    Dialogo.color-primario(:dialogo="dialogo23")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Titulo de actividad - Completa la conversación.
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
@@ -449,9 +449,9 @@ export default {
     dialogo6: [
       {
         textoIng:
-          '<em>When using the past perfect, it is also important to know how to work with negative sentences. The negative sentences are quite similar to the affirmative ones; the only difference is that you have to put the auxiliary verb in the negative form. However, the other elements keep exactly the same; the verb is also in past participle form and the order of the structure is the same.</em>',
+          '<em>In the following conversation, you will see an interaction in which the past perfect tense is used in a real-life situation, pay attention to the context and practice speaking with a classmate:</em>',
         textoEsp:
-          'Al utilizar el pasado perfecto, también es importante saber cómo trabajar con oraciones negativas. Las oraciones negativas son bastante similares a las afirmativas, la única diferencia es que hay que poner el verbo auxiliar en la forma negativa. Sin embargo, los demás elementos se mantienen exactamente igual; el verbo también está en forma de participio pasado y el orden de la estructura es el mismo.',
+          'En la siguiente conversación, verá una interacción en la que se utiliza el pretérito perfecto en una situación de la vida real, preste atención al contexto y practique hablando con un compañero:',
       },
     ],
     dialogo7: [
@@ -603,7 +603,7 @@ export default {
         textoIng:
           '<em>The past perfect continuous is a tense that allows you to talk about events that started in the past, had a duration and finished in the past. This tense can be complemented with other past tenses in order to contrast or finish the activity. All of the sentences need to use the ING form of the verb, so let’s see how to do it:</em>',
         textoEsp:
-          'El pasado perfecto continuo es un tiempo verbal que permite hablar de acontecimientos que empezaron en el pasado, tuvieron una duración y terminaron en el pasado. Este tiempo puede complementarse con otros tiempos pasados para contrastar o terminar la actividad. Todas las oraciones necesitan usar la forma ING del verbo, así que veamos cómo formarla:',
+          'El pasado perfecto continuo es un tiempo verbal que permite hablar de acontecimientos que empezaron en el pasado, tuvieron una duración y terminaron en el pasado. Este tiempo puede complementarse con otros tiempos pasados para contrastar o terminar la actividad. Todas las oraciones necesitan usar la forma <em>ING</em> del verbo, así que veamos cómo formarla:',
       },
     ],
     dialogo16: [

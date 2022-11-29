@@ -15,7 +15,7 @@
         TraduccionT.color-acento-botones(:dialogo="dialogo1")(data-aos="flip-up")
 
     .row.bgr_2.tarjeta.p-5.bg_grad-02.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="zoom-in")
         SlyderE.mt-4(indicadores="derecha")
           div
             h4.colr_2 <em>Balance</em>
@@ -134,7 +134,7 @@
       .row.mb-5
         .col-lg-7
           TraduccionT.color-acento-botones(:dialogo="dialogo3")(data-aos="flip-up")
-        .col-lg-5
+        .col-lg-5(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/9.png", alt="alt")
     
@@ -290,7 +290,7 @@
       
     .bg_grad-04
       .row.justify-content-center
-        .col-lg-7
+        .col-lg-7(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/21.svg", alt="alt")
           .bg_grad-05
@@ -307,7 +307,7 @@
     .row.mb-5
       .col-lg-7.order-2.order-lg-1
         TraduccionT.color-acento-botones(:dialogo="dialogo5")(data-aos="flip-up")
-      .col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0
+      .col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/22.png", alt="alt")
 
@@ -389,7 +389,7 @@
           .col-lg-3.d-flex.align-items-end.order-1.order-lg-2.mb-3.mb-lg-0
             figure.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema1/29.svg", alt="alt")
-          .col-lg-5.order-3.order-lg-3
+          .col-lg-5.order-3.order-lg-3(data-aos="zoom-in")
             SlyderE.bgr(indicadores="derecha")
               TraduccionChat.color-acento-botones(:dialogo="traduccionChat1")
               TraduccionChat.color-acento-botones(:dialogo="traduccionChat2")
@@ -461,7 +461,7 @@ export default {
     traduccionChat: {
       personajes: [
         {
-          nombre: 'Ivan',
+          nombre: 'Jane',
         },
         {
           nombre: 'Diana',
@@ -469,7 +469,7 @@ export default {
       ],
       dialogo: [
         {
-          personaje: 'Ivan',
+          personaje: 'Jane',
           textoIng: '<em>Hey, Diana! Are you writing your essay?</em>',
           textoEsp: '¡Hola, Diana! ¿Estás escribiendo tu ensayo?',
           audio: require('@/assets/componentes/audios/tema1/17.mp3'),
@@ -481,7 +481,7 @@ export default {
           audio: require('@/assets/componentes/audios/tema1/18.mp3'),
         },
         {
-          personaje: 'Ivan',
+          personaje: 'Jane',
           textoIng:
             '<em>No way! Remember it is an explanatory text, not a drama.</em>',
           textoEsp:
