@@ -174,7 +174,7 @@
           h3.text-center.colr_2 <em>Drama</em> / Drama
           span.text-center.colr_2 <em>It is a piece of literature projected for performance by actors on a stage. </em> 
           span.colr_1 / Es una obra literaria proyectada para ser representada por actores en un escenario.
-          p.text-center.mt-3 <em>Example:</em> / Ejemplo
+          p.text-center.mt-3 <em>Example:</em> / Ejemplo:
           TarjetaAudio.color-acento-contenido.mb-3.colr_3.bgr(
             texto="<em>I think Hamlet is my favorite <i>drama.</i></em>"
             :audio="require('@/assets/componentes/audios/tema1/9.mp3')"

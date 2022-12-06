@@ -255,7 +255,7 @@
     
     Dialogo.color-primario(:dialogo="dialogo14")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Titulo de actividad - Completa la conversación.
+      template(#titulo-actividad) <em>Past perfect practice</em> - Completa la conversación.
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
     separador
@@ -376,7 +376,7 @@
 
     Dialogo.color-primario(:dialogo="dialogo23")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Titulo de actividad - Completa la conversación.
+      template(#titulo-actividad) <em>Past perfect continuous</em> - Completa la conversación.
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
                   
 
